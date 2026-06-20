@@ -1,0 +1,25 @@
+# KiCad
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.lck
+fp-info-cache
+*-cache.lib
+
+# Outputs
+outputs/
+
+# STM32 / build
+firmware/build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+# macOS
+.DS_Store
+
+# STM32 / build
+firmware/build/
+firmware/.vscode/
