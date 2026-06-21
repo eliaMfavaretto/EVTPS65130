@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "EVTPS65130_lib") (type "KiCad") (uri "/Users/eliafavaretto/Documents/Elettronica/Progetti/EVTPS65130/libraries/footprints") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "/Users/eliafavaretto/Documents/Elettronica/Progetti/EVTPS65130/libraries/footprints.pretty") (options "") (descr ""))
+)
