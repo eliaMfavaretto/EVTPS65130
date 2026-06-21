@@ -416,8 +416,17 @@
         "uuid": "b1cb391d-ea8e-4faa-bb90-2b0ee6abebaa"
       }
     ],
-    "used_designators": "J1,#FLG1,#FLG3,F1,U3-5,R5-6,R56-63,#PWR1-7,#PWR9-10,#PWR64-80,C1,C20-33,D8-9,Q10,L1-2",
-    "variants": []
+    "used_designators": "R66-68,D1-3,D9,#PWR1,#PWR3-4,#PWR8-11,#PWR75-78,#PWR82-95,FB1-2,C27-31,C41-49,J2",
+    "variants": [
+      {
+        "description": "Output +/-12V",
+        "name": "12V"
+      },
+      {
+        "description": "Output +/-15V",
+        "name": "15V"
+      }
+    ]
   },
   "sheets": [
     [
