@@ -637,7 +637,7 @@
         "uuid": "b1cb391d-ea8e-4faa-bb90-2b0ee6abebaa"
       }
     ],
-    "used_designators": "R69-70,#PWR12,J1,#FLG2,#FLG4",
+    "used_designators": "",
     "variants": [
       {
         "description": "Output +/-12V",

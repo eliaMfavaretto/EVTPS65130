@@ -3490,12 +3490,6 @@
 		(uuid "168bbe0c-930d-4730-9589-02b500ddab35")
 	)
 	(junction
-		(at 97.79 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17b28943-09d0-4e05-8b6d-a3790b218dae")
-	)
-	(junction
 		(at 166.37 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3722,12 +3716,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d60b4c08-f87b-488d-93f7-52034691e48b")
-	)
-	(junction
-		(at 100.33 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efb6b4d8-ae31-4011-a89e-6c36ab54ef17")
 	)
 	(wire
 		(pts
@@ -4081,16 +4069,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 153.67) (xy 97.79 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300acdb4-698a-49dc-b79b-3a671fc8d198")
-	)
-	(wire
-		(pts
 			(xy 246.38 133.35) (xy 234.95 133.35)
 		)
 		(stroke
@@ -4171,7 +4149,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 156.21) (xy 97.79 158.75)
+			(xy 97.79 153.67) (xy 97.79 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4428,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "6937e858-d9a5-4ca5-bb43-3308222af876")
-	)
-	(wire
-		(pts
-			(xy 97.79 156.21) (xy 100.33 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a213f65-d83a-4631-83ae-0efb5864a84b")
 	)
 	(wire
 		(pts
@@ -13316,7 +13284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
 			(at 31.75 30.48 0)
 			(hide yes)
 			(show_name no)
