@@ -4159,6 +4159,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 149.86) (xy 43.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd2dc77-0bf9-44ba-aaec-6ea7f6cf9f9f")
+	)
+	(wire
+		(pts
 			(xy 212.09 83.82) (xy 212.09 86.36)
 		)
 		(stroke
@@ -4646,6 +4656,16 @@
 			(type default)
 		)
 		(uuid "8b701ebe-6089-40a9-8f66-5e7fa7d0bba9")
+	)
+	(wire
+		(pts
+			(xy 43.18 149.86) (xy 43.18 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d70e8f0-9ede-48f1-a10f-5e5bb69d656e")
 	)
 	(wire
 		(pts
@@ -5439,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 151.13) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabd64bf-4f4f-4b40-b54f-7002d6271ed0")
+	)
+	(wire
+		(pts
 			(xy 113.03 53.34) (xy 113.03 55.88)
 		)
 		(stroke
@@ -5486,6 +5516,26 @@
 			(type default)
 		)
 		(uuid "ffb6bb3d-961e-455c-8005-8b63a44efd6c")
+	)
+	(label "+12V_OUT"
+		(at 156.21 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f55a8f-b198-4979-ad74-adda5bcd4feb")
+	)
+	(label "-12V_OUT"
+		(at 180.34 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf40b36-4bfb-4724-b615-c63ec89181a6")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11370,6 +11420,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 43.18 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1de3172-295e-4ca3-9d16-78b49acb66c7")
+		(property "Reference" "#PWR097"
+			(at 43.18 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "688e418b-6f39-4541-9f71-94fd4c1eee8b")
+		)
+		(instances
+			(project "EVTPS65130"
+				(path "/b1cb391d-ea8e-4faa-bb90-2b0ee6abebaa"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 137.16 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -12007,6 +12136,83 @@
 			(project "EVTPS65130"
 				(path "/b1cb391d-ea8e-4faa-bb90-2b0ee6abebaa"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b463a871-f35c-480c-861a-84144329d4c1")
+		(property "Reference" "#PWR096"
+			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 35.56 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5adcfb6-82cd-40c6-a9c2-f50627d94971")
+		)
+		(instances
+			(project "EVTPS65130"
+				(path "/b1cb391d-ea8e-4faa-bb90-2b0ee6abebaa"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
